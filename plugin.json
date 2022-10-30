@@ -1,0 +1,29 @@
+{
+    "name": "InstanceSetting",
+    "description": "If you use this Matomo instance over multiple hostnames, this plugin can easily set the instance_id for this instance.",
+    "version": "0.1.0",
+    "theme": false,
+    "require": {
+        "matomo": ">=4.12.3-stable,<5.0.0-b1"
+    },
+    "authors": [
+        {
+            "name": "Null",
+            "email": "yuyangjial@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "support": {
+        "email": "yuyangjial@gmail.com",
+        "issues": "",
+        "forum": "",
+        "irc": "",
+        "wiki": "",
+        "source": "",
+        "docs": "",
+        "rss": ""
+    },
+    "homepage": "",
+    "license": "GPL v3+",
+    "keywords": ["instance_id"]
+}

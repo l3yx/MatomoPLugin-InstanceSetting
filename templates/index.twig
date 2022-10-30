@@ -1,0 +1,26 @@
+{% extends 'admin.twig' %}
+
+{% block content %}
+<div piwik-content-block content-title="InstanceSetting">
+    <p>
+        If you use this Matomo instance over multiple hostnames, this plugin can easily set the instance_id for this instance.
+    </p>
+
+
+    <form  action="{{ linkTo({'module': 'InstanceSetting', 'action': 'save'}) }}" method="post">
+        <div piwik-field 
+            uicontrol="text" 
+            name="instance_id"
+            data-title="instance_id"
+            maxlength="100" 
+            value="{{ instance_id }}"
+            required >
+        </div>
+
+
+        <input type="submit" value="Save" class="btn"/>
+    </form>
+</div>
+{% endblock %}
+
+
